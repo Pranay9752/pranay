@@ -62,7 +62,7 @@ const ExperienceSection = () => {
       logo: "RS",
       role: "Frontend Developer",
       period: "June 2023 - May 2024",
-      location: "Mumbai",
+      location: "Indore",
       color: "purple",
       achievements: [
         {
