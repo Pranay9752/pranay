@@ -105,7 +105,12 @@ export default function Home() {
             className="md:col-span-4 bg-gray-800 p-6 rounded-2xl shadow-xl"
           >
             <div className="space-y-4">
-              <div className="flex items-center">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://wa.me/918788373686"
+                className="flex items-center"
+              >
                 <div className="w-10 h-10 bg-blue-600/20 text-blue-400 rounded-full flex items-center justify-center mr-3">
                   <svg
                     className="w-5 h-5"
@@ -126,9 +131,14 @@ export default function Home() {
                   <p className="text-gray-400 text-xs">Phone</p>
                   <p className="text-sm">+91 8788 373 686</p>
                 </div>
-              </div>
+              </a>
 
-              <div className="flex items-center">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="mailto:pranayambre01@gmail.com"
+                className="flex items-center"
+              >
                 <div className="w-10 h-10 bg-blue-600/20 text-blue-400 rounded-full flex items-center justify-center mr-3">
                   <svg
                     className="w-5 h-5"
@@ -149,7 +159,7 @@ export default function Home() {
                   <p className="text-gray-400 text-xs">Email</p>
                   <p className="text-sm">pranayambre01@gmail.com</p>
                 </div>
-              </div>
+              </a>
 
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-blue-600/20 text-blue-400 rounded-full flex items-center justify-center mr-3">
@@ -182,7 +192,9 @@ export default function Home() {
 
               <div className="pt-2 flex space-x-3">
                 <a
-                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/pranay-ambre/"
                   className="w-9 h-9 bg-gray-700 hover:bg-blue-600 rounded-full flex items-center justify-center transition-colors duration-300"
                 >
                   <svg
@@ -195,7 +207,9 @@ export default function Home() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/Pranay9752/"
                   className="w-9 h-9 bg-gray-700 hover:bg-blue-600 rounded-full flex items-center justify-center transition-colors duration-300"
                 >
                   <svg
