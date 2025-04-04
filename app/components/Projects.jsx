@@ -30,7 +30,7 @@ const ProjectsSection = () => {
       name: "One Nation One Code (ONOC)",
       description:
         "A comprehensive platform built for retailers to manage inventory, sales, and customer data with real-time analytics.",
-      image: "/api/placeholder/600/400",
+      image: "https://i.ibb.co/WWnxsRCT/Screenshot-2025-04-04-123724.png",
       tags: ["React.js", "Redux", "Tailwind CSS", "RTK Query"],
       //   githubUrl: "https://github.com/username/retailer-one",
       demoUrl: "https://www.liveapp.in",
@@ -41,7 +41,7 @@ const ProjectsSection = () => {
       name: "Jojo Cart",
       description:
         "Jojo Cart is a full-fledged e-commerce platform designed specifically for cakes and gifts businesses.",
-      image: "/api/placeholder/600/400",
+      image: "https://i.ibb.co/TM3NJHrq/Screenshot-2025-04-04-131651.png",
       tags: [
         "React.js",
         "NodeJS",
@@ -60,7 +60,7 @@ const ProjectsSection = () => {
       name: "Taskifyr",
       description:
         "Taskifyr is a project management tool designed to streamline teamwork and boost productivity. With an intuitive interface, it enables teams to collaborate efficiently.",
-      image: "/api/placeholder/600/400",
+      // image: "/api/placeholder/600/400",
       tags: ["React.js", "Redux", "Tailwind CSS"],
     //   githubUrl: "https://github.com/Pranay9752/taskifyr",
       status: "deprecated",
@@ -71,9 +71,9 @@ const ProjectsSection = () => {
   const getStatusBadgeStyle = (status) => {
     switch (status) {
       case "completed":
-        return "bg-green-500/20 text-green-400 border border-green-500/30";
+        return "bg-green-500/40 text-green-800 border border-green-500/30";
       case "working":
-        return "bg-blue-500/20 text-blue-400 border border-blue-500/30";
+        return "bg-blue-500/40 text-blue-800 border border-blue-500/30";
       case "deprecated":
         return "bg-orange-500/20 text-orange-400 border border-orange-500/30";
       default:
@@ -135,17 +135,18 @@ const ProjectsSection = () => {
                     {project.status}
                   </span>
                 </div>
-                <div className="relative overflow-hidden h-56">
+                {project.image && <div className="relative overflow-hidden h-56">
                   <img
                     src={project.image}
                     alt={project.name}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-70"></div>
-                </div>
+                </div>}
               </div>
 
-              <div className="p-6 relative z-10 flex justify-between flex-col h-[3  00px] ">
+              <div className="p-6 relative z-10 flex justify-between flex-col h-[300px] ">
+          
                 <h3 className="text-2xl font-bold text-white group-hover:text-blue-400 transition-colors">
                   {project.name}
                 </h3>
