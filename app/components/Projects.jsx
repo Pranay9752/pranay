@@ -62,7 +62,7 @@ const ProjectsSection = () => {
         "Taskifyr is a project management tool designed to streamline teamwork and boost productivity. With an intuitive interface, it enables teams to collaborate efficiently.",
       // image: "/api/placeholder/600/400",
       tags: ["React.js", "Redux", "Tailwind CSS"],
-    //   githubUrl: "https://github.com/Pranay9752/taskifyr",
+      githubUrl: "https://github.com/Pranay9752/taskifyr",
       status: "deprecated",
     },
   ];
